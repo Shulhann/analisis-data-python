@@ -1,7 +1,20 @@
-# analisis-data-python
+# analisis-data-python ✨
 
-Proyek ini melakukan Analisis Air Quality Dataset yang diperoleh melalui https://drive.google.com/file/d/1RhU3gJlkteaAQfyn9XOVAz7a5o1-etgr/view menggunakan bahasa Python.
+## Setup Environment
 
-Kesimpulan dari proyek ini telah dideploy di dashboard streamlib, anda dapat membuka url.txt untuk melihat link streamlib.
+```
+python -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt
+```
 
-Apabila streamlib tidak dapat diakses karena error, silahkan jalankan streamlit run dashboard/dashboard.py pada folder submission untuk menjalankan dashboard di lokal.
+## Run steamlit app
+
+```
+cd dashboard
+streamlit run dashboard.py
+
+or
+
+streamlit run dashboard/dashboard.py p
+```
