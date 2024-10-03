@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import streamlit as st
 from scipy import stats
 
-main_data_df = pd.read_csv("main_data.csv")
+main_data_df = pd.read_csv("dashboard/main_data.csv")
 
 st.title("Analisis Air Quality Dataset - Muhammad Shulhan")
 st.write("Dashboard ini merupakan dashboard yang dibentuk untuk merangkum hasil analisis yang telah dilakukan terhadap Air Quality Dataset. Dataset ini yang digunakan pada analisis ini merupakan dataset yang diperoleh dari https://drive.google.com/file/d/1RhU3gJlkteaAQfyn9XOVAz7a5o1-etgr/view yang telah dilalui proses data wrangling oleh penulis.")
