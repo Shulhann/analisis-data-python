@@ -2,6 +2,7 @@ import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
 import streamlit as st
+from scipy import stats
 
 main_data_df = pd.read_csv("main_data.csv")
 
